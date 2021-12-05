@@ -1,0 +1,8 @@
+package org.zerock.service;
+
+import org.zerock.domain.ReplyVO;
+
+public interface ReplyService {
+	
+	private int register(ReplyVO reply);
+}
